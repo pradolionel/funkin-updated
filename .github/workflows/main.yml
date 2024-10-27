@@ -20,8 +20,6 @@ jobs:
           haxelib install flixel-ui
           haxelib install flixel-addons
           haxelib git faxe https://github.com/ashea-code/faxe
-      - name: add APIStuff
-        run: echo "package;class APIStuff{public static var API:String = '';public static var EncKey:String = '';}" > source/APIStuff.hx
       - name: compile
         run: haxelib run lime build windows
       - name: upload artifact
@@ -50,8 +48,6 @@ jobs:
           haxelib install flixel-ui
           haxelib install flixel-addons
           haxelib git faxe https://github.com/ashea-code/faxe
-      - name: add APIStuff
-        run: echo "package;class APIStuff{public static var API:String = '';public static var EncKey:String = '';}" > source/APIStuff.hx
       - name: compile
         run: haxelib run lime build linux
       - name: upload artifact
@@ -78,8 +74,6 @@ jobs:
           haxelib install flixel-ui
           haxelib install flixel-addons
           haxelib git faxe https://github.com/ashea-code/faxe
-      - name: add APIStuff
-        run: echo "package;class APIStuff{public static var API:String = '';public static var EncKey:String = '';}" > source/APIStuff.hx
       - name: compile
         run: haxelib run lime build mac
       - name: upload artifact
