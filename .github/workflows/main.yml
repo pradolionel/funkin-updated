@@ -13,7 +13,6 @@ jobs:
       - name: install library
         run: |
           haxelib install hxcpp
-          haxelib install hxnodejs
           haxelib install lime
           haxelib install openfl
           haxelib install flixel
@@ -44,7 +43,6 @@ jobs:
           sudo apt-get install libvlc-dev
           sudo apt-get install libvlccore-dev
           haxelib install hxcpp
-          haxelib install hxnodejs
           haxelib install lime
           haxelib install openfl
           haxelib install flixel
@@ -73,7 +71,6 @@ jobs:
       - name: install library
         run: |
           haxelib install hxcpp
-          haxelib install hxnodejs
           haxelib install lime
           haxelib install openfl
           haxelib install flixel
