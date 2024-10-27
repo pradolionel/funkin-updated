@@ -48,6 +48,7 @@ jobs:
           haxelib install flixel-ui
           haxelib install flixel-addons
           haxelib git faxe https://github.com/ashea-code/faxe
+          haxelib git extension-androidtools https://github.com/MAJigsaw77/extension-androidtools df9dfd0cda74e5460ae3afcfff1081c50959ed4a --quiet --skip-dependencies
       - name: Configure Android
         run: |
           haxelib run lime config ANDROID_SDK $ANDROID_HOME
