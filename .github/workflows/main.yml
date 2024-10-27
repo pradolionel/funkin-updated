@@ -9,7 +9,7 @@ jobs:
       - name: install haxe
         uses: krdlab/setup-haxe@master
         with:
-          haxe-version: 4.3.4
+          haxe-version: 4.3.6
       - name: install library
         run: |
           haxelib install hxcpp
@@ -35,7 +35,7 @@ jobs:
       - name: install haxe
         uses: krdlab/setup-haxe@master
         with:
-          haxe-version: 4.3.4
+          haxe-version: 4.3.6
       - name: install library
         run: |
           sudo apt-get install libvlc-dev
@@ -63,7 +63,7 @@ jobs:
       - name: install haxe
         uses: krdlab/setup-haxe@master
         with:
-          haxe-version: 4.3.4
+          haxe-version: 4.3.6
       - name: install library
         run: |
           haxelib install hxcpp
